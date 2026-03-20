@@ -28,15 +28,6 @@
       </form>
       <p class="muted">Já tem conta? <RouterLink to="/login">Entrar</RouterLink></p>
     </div>
-    <div class="card">
-      <h3>Boas práticas embutidas</h3>
-      <ul>
-        <li>JWT no backend para proteger dados.</li>
-        <li>Validação de CEP e horário disponível.</li>
-        <li>Preparado para deploy (Vite + Express).</li>
-      </ul>
-    </div>
-  </div>
 </template>
 
 <script setup>
