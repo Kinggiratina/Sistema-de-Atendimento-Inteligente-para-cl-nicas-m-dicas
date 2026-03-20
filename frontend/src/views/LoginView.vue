@@ -16,6 +16,16 @@
         <p v-if="error" class="alert error">{{ error }}</p>
       </form>
       <p class="muted">Novo por aqui? <RouterLink to="/register">Criar conta</RouterLink></p>
+          <div class="card">
+      <h3>Por que usar?</h3>
+      <ul>
+        <li>Agendamento com checagem automática de horário.</li>
+        <li>Autocompletar endereço via CEP.</li>
+        <li>Alerta de chuva no dia da consulta.</li>
+        <li>Painel para pacientes e secretários.</li>
+      </ul>
+    </div>
+    </div>
     </div>
 </template>
 
